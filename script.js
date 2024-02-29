@@ -1,6 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const startRecognitionButton = document.getElementById("startRecognition");
     const resultOutput = document.getElementById("result");
+
+    //CASTANONTIVAREDSAMELISSA
   
     // Comprobamos si el navegador soporta el reconocimiento de voz
     if (!('webkitSpeechRecognition' in window)) {
